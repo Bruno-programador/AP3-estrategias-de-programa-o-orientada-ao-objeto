@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="janelaprincipal" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap1.Controller.TelaPrincipalController">
+   <children>
+      <MenuBar prefHeight="0.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="CRUD">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#showCRUDcliente" text="Cliente" />
+                  <MenuItem mnemonicParsing="false" onAction="#showCRUDmotocicleta" text="Motocicleta" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Registro">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#showRegCliente" text="Cliente" />
+                  <MenuItem mnemonicParsing="false" onAction="#showRegMotocicleta" text="Motocicleta" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Vendas">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#showVender" text="Vender" />
+                  <MenuItem fx:id="ShowHistorico" mnemonicParsing="false" onAction="#ShowHistorico" text="Historico" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <VBox fx:id="principalInfo" minHeight="375.0" minWidth="600.0" prefHeight="375.0" prefWidth="600.0" />
+   </children>
+</VBox>

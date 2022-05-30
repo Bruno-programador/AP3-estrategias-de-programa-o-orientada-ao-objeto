@@ -1,0 +1,12 @@
+ap1\Classes\Vendas.class
+ap1\Controller\CRUDclienteController.class
+ap1\Controller\TelaPrincipalController.class
+ap1\Controller\RegMotocicletaController.class
+ap1\Classes\Cliente.class
+ap1\Controller\CRUDmotocicletaController.class
+ap1\Classes\Motocicleta.class
+ap1\Controller\HistoricoController.class
+ap1\Controller\RegClienteController.class
+ap1\App.class
+ap1\Controller\VenderController.class
+ap1\FXMain.class
